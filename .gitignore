@@ -1,1 +1,3 @@
 **/slugify/
+*.json
+**/node_modules/
