@@ -1,2 +1,2 @@
 # Learning
-In this repository, i will what i learn
+In this repository, i will push what i learn
