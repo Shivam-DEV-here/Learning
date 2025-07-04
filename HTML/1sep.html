@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1sep</title>
+    <style>
+
+        /* Selectors */
+        /* s1 */
+
+        div>p{
+            color: brown;
+        }
+
+        /* s2 */
+        /* span{
+            background-color: aqua;
+        } */
+
+        /* s3 */
+        .s3{
+            background-color: black;
+        }
+
+        /* s4 */
+        #s4{
+            background-color: blue;
+            color: aliceblue;
+        }
+
+        /* s5 */
+        div  h4{
+            background-color: rgb(255, 0, 212);
+            color: aliceblue;
+        }
+
+        /* s6 */
+        a:visited{
+            color:black
+        }
+        a:active{
+            background-color: aqua;
+        }
+        a:hover{
+            color: antiquewhite;
+            background-color: black;
+        }
+        a:link{
+            color: rgb(0, 255, 13);
+        }
+        
+        .main {
+            text-align: center;
+            color: blue;
+        }
+
+        * {
+            color: blueviolet;
+        }
+
+        .tth {
+            border-color: blue;
+        }
+
+        .fonts1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            text-decoration: overline;
+            text-transform: lowercase;
+        }
+
+        .fonts2 {
+            text-decoration-color: rgb(255, 0, 217);
+            text-decoration: underline;
+            font-weight: 100px;
+            font-size: 30px;
+            line-height: 5;
+            letter-spacing: 18px;
+            text-transform: capitalize;
+        }
+
+        .fonts3 {
+            text-decoration-color: rgb(255, 0, 217);
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        .fonts4 {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .mar{
+            background-color: aqua;
+            margin: 50px;
+            padding: 33px;
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+<header>
+        <h1 class="main">Everything till 1/Sep</h1>
+    </header>
+    <nav>
+        <ul type="square">
+            <li>Selectors</li>
+            <li>Input</li>
+            <li>table</li>
+            <li>media</li>
+            <li>font</li>
+            <li>basic</li>
+            <li>margin</li>
+        </ul>
+    </nav>
+    <div>
+        <h1 style="text-align: center;">Selectors</h1>
+    </div>
+    <div class="main">Child Selectors</div>
+ <div><p>Selector 1</p></div>    
+    
+ <div class="main">Element Selectors</div>
+ <span> i am Element selector</span>
+    
+ <div class="main">Class Selectors</div>
+ <div class="s3"> Selector 3</div>
+
+ <div class="main">ID Selectors</div>
+ <div id="s4"> Selector 4</div>
+
+ <div class="main">Decendent Selectors</div>
+ <div><span><p><h4>Selector 5</h4></p></span></div>
+ 
+ <div class="main">Pseudo Selectors</div>
+ <a href="www.none.com">NONE</a>
+    <div>
+        <h1 style="text-align: center;">Input Informations</h1>
+    </div>
+    <div class="main">
+        <label for="email">Enter Your Email</label>
+        <input type="email" id="email" required placeholder="*Eg: myper@gmail.com">
+    </div>
+
+    <div class="main"> <label for="password">Enter Your Password</label>
+        <input type="password" id="password" required placeholder="*">
+
+    </div>
+    <br>
+    <div> <label for="ID">Enter Your ID </label>
+        <input type="text" id="ID" placeholder="*Eg: ITM/23/AI/17">
+    </div>
+    <div> <label for="username">Enter Your name</label>
+        <input type="text" id="username" placeholder="Eg: Shivam Srivastava">
+    </div>
+    <div> <label for="father name">Enter Father name</label>
+        <input type="text" id="father name" placeholder="Eg: Manish Srivastava">
+    </div>
+    <div> <label for="dob">Select Your DOB</label>
+        <input type="date" id="dob" placeholder="Eg: 05/03/2003">
+    </div>
+
+    <div> <label for="gender">your gender</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Introvert">Prefer not to say</option>
+        </select>
+    </div>
+    <div><input type="radio" id="Single" name="status" value="Single">
+        <label for="Single">Single</label>
+        <input type="radio" id="married" name="status" value="married">
+        <label for="married">Married</label>
+    <input type="radio" id="introvert" name="status" value="Prefer not to say">
+    <label for="Prefer not to say">Prefer not to say</label> </div><br>
+    <div class="main">Select details which are true for you</div>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes">Java</label>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes">Python</label>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes">C Language</label>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes">Web dev</label>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes"> <abbr title="Including Video, Photo, Sound">Editing</abbr> </label>
+    <input type="checkbox" id="yes" name="LL" value="yes">
+    <label for="yes">Animation</label>
+    </div>
+
+    <textarea id="comment" name="commment" rows="4" cols="40">Enter Comment</textarea>
+    <label for="comment">Enter your comment</label>
+
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+
+    <div class="main">
+        <h1>Table</h1>
+    </div>
+    <div>
+        <table border class="tth">
+            <tr>
+                <th>S No.</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text" placeholder="td th, tr"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text" placeholder="t head,t foot,t body"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th><input type="text" required placeholder="*required"></th>
+                <th><input type="text"></th>
+                <th><select>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="introvert">Prefer not to say</option>
+                    </select></th>
+                <th><input type="text"></th>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div>
+        <table border="2">
+            <tr>
+                <th>S No.</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <td>Note</td>
+            </tr>
+            <tr>
+                <td rowspan="8" colspan="5">1</td>
+                <td>No need</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+
+
+    <div class="main">
+        <h1>Media</h1>
+        Video
+    </div>
+    <div>
+        <video src="../media/video/v2.mp4" poster="../media/image/i1.jpeg" controls height="300">Video1</video>
+        <video src="../media/video/v4.mp4" controls muted height="300">Video2</video>
+    </div>
+    <br>
+    <div class="main">Image</div><br>
+
+    <div>
+        <img src="../media/image/i1.jpeg" height="300" alt="Error code=net slow">1</a>
+        <img src="../media/image/i2.jpeg" width="200" alt="Error code=net slow">2</a>
+
+    </div>
+    <br>
+    <div class="main">Audio</div><br>
+    <br>
+    <div class="main">IFRAME</div><br>
+    <div><iframe src="https://www.google.com" width="300"></iframe> </div>
+    <div>youtube <embed></div>
+
+        <br>
+        <div class="main">SVG</div>
+        <svg height="150" width="150">
+            <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="#FFB6C1">svg1</circle>
+        </svg><br>
+
+        <div><svg xlmns="https://www.org/2000/svg" height="50" width="50"><circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="#FFB6C1">idk</svg> </div>
+
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+
+    <div class="main">
+        <h1>Font</h1>Font 1
+    </div><br>
+    <div class="fonts1"><abbr title="all were capital but transformed">LETS SEE THE CHANGES</abbr> </div>
+
+    <br>
+    <div class="main">Font 2</div><br>
+    <div class="fonts2"><abbr title="all were capitalize">lets see the changes</abbr> </div>
+
+    <br>
+    <div class="main">Font 3</div><br>
+    <div class="fonts3"><abbr title="all were lower transformed">lets see the changes</abbr></div>
+
+    <br>
+    <div class="main">Font 4</div><br>
+    <div class="fonts4">lets see the changes</div>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+
+    <div class="main">
+        <h1>Basic</h1>
+        OTHER
+    </div>
+
+    <div>this is <sup>sup</sup></div>
+    <div>this is <sub>sub</sub></div>
+
+    <div class="main">Keys</div>
+    <div>Window + Shift + S -----------&gt; snap screenshort</div>
+    <div>! ----------- sue for dummy paragraph</div>
+    <div>ctlr + /---------------comment out</div>
+    <div>Shift + Tab---------------shifts to next coordinate(code)</div>
+    <div>HTML Entites---------------< by [& g t ;] else > by [& l t ;]</by></div>
+    <dv>[& n b s p ;] for space</dv>
+    <div>[select any like &gt; this symbol] go to change all occurance all&gt; will be selected in whole program</div>
+
+
+    <br>
+    <div class="main"> Functions</div><br>
+    <div>&lt;a href target="balnk"&gt; taret is used to change page </div>
+    <div>&lt;link rel="stylesheet" href="_____"&gt; to link css file with html</div>
+    <div>  &lt;caption&gt; ---------------use</div>
+     <div> &lt;script src="__"&gt; ---------------use alert</div>
+     <div> &lt;dt&gt; ---------------use defination other dd</div>
+     <div>ol[1,A,a,i,I] ul[disk, square,circle] both can use ATT start="4" & li</div>
+
+     <div> &lt;form action="post_/_get"&gt; ---------------post for large and get for small data transfer</div>
+     <div> &lt;input type="text" pattern="[_____]"&gt; ---------------post for large and get for small data transfer</div>
+
+     other____--blockquote, mark, address, <del>999</del>1000
+
+    <div> <bdo dir="rtl">this is right to left </bdo></div>
+    <div> <bdo dir="ltr">this is left to right </bdo></div>
+    <div>To write code ----pre then code </div>
+    <br>
+    <div class="main">Sites</div><br>
+    <div><a href="www.fiver.com">Fiver</a> </div>
+
+    <div>
+        <h1 style="text-align: center;">MARGIN</h1>
+        
+        <div style="background-color: black;">
+    <div class="mar">Lets know about Margin-50, padding 33</div></div>
+
+
+
+
+
+
+    <br><br>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellendus commodi molestiae veritatis
+        repudiandae rerum officia autem? Beatae dolores quasi est qui animi vero necessitatibus id sint quaerat.
+        Adipisci necessitatibus ducimus vel assumenda ex vero similique et eaque corporis quam voluptas reprehenderit
+        laudantium voluptate molestias distinctio, quia praesentium illum omnis non fugiat qui beatae repellendus
+        maiores. Doloremque id, laudantium dolore aspernatur aut adipisci at mollitia tempora cupiditate dolorem sequi
+        voluptatem accusantium, tenetur veritatis, sit repellat recusandae? Rerum officiis, voluptate pariatur cumque
+        qui tempora odit neque minus voluptatum temporibus id quia praesentium consectetur voluptates facilis molestiae
+        accusantium dolorum, non assumenda fugit. Excepturi expedita voluptatum aliquam. Unde quo praesentium, ullam
+        recusandae, sapiente ducimus repellat ea magni soluta minus velit repellendus non exercitationem alias, aperiam
+        laboriosam necessitatibus eius maxime et quidem consectetur repudiandae corporis porro. Nulla numquam, rem
+        delectus earum reprehenderit sunt ipsa aut, modi quia iste illo, nam a aliquid deserunt consequatur quo! Natus,
+        quidem pariatur id atque sapiente odio ea consectetur eum ducimus quae aut officia nisi odit quis? Autem
+        corrupti veritatis fugiat inventore quas assumenda. Sapiente et iusto iure corrupti, repellendus tenetur ipsum
+        eos provident, assumenda sit aperiam dignissimos modi aliquid? Atque illum totam cum provident veniam. Aut eum
+        animi doloribus laboriosam hic recusandae dolore reprehenderit voluptas dolorem dolores quia adipisci id enim
+        porro ducimus expedita, ipsum quibusdam. Eum, ab harum? Facilis consequatur rem dolore amet fugit aliquid
+        quisquam, doloribus animi hic esse tenetur odio tempore, quae laudantium error. Laudantium aperiam quos, dolorem
+        hic soluta debitis quia tenetur sunt et! Quisquam repudiandae voluptatem illo, ea mollitia cupiditate unde nam
+        recusandae quod, pariatur obcaecati optio? Voluptatem a inventore accusamus molestias iusto recusandae,
+        molestiae impedit tempore neque optio aliquid magnam exercitationem adipisci quasi commodi beatae consectetur
+        enim vero vitae harum quisquam doloremque! Praesentium culpa vero delectus pariatur? Voluptas modi rem id
+        veniam!</div>
+
+
+
+
+
+
+
+
+
+
+
+        <form>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female 
+
+<textarea name=”comment” rows=”4” cols=”50” placeholder="hello"></textarea>
+		<label for=”comment”> comment </label>
+
+        Select code: <select name=”fruit”>
+            <option value=”Mango”>Mango</option>
+            <option value=”Orange”>Orange</option>
+            <option value=”Apple”>Apple</option>
+        </select>
+        
+      
+        <input type="reset" value="reset">    </form>
+        <form>
+            <!-- Your form fields here -->
+            <input type="text" name="username">
+            <input type="password" name="password">
+            
+            Reset button
+            <input type="reset" value="Reset">
+          </form>
+        
+          
+
+
+
+
+<video src="../media/video/v2.mp4" controls autoplay muted loop>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<table border="1">
+   <tr>
+        <td>Home </td>
+        <td  colspan="3">Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td rowspan="4">about</td>
+        <td>Menu</td>
+   </tr>
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td colspan="2">about</td>
+        <td>Menu</td>
+   </tr>
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+
+
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+
+
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+   <tr>
+        <td>Home </td>
+        <td>Class</td>
+        <td>about</td>
+        <td>Menu</td>
+   </tr>
+
+
+
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<table border=”1”>
+    <tr>
+        <td colspan="2">ID</td>
+        <td>Branch</td>
+</tr>
+    <tr>
+        <td rowspan=”2”>ID</td>
+        <td>Name</td>
+        <td>Branch</td>
+</tr>
+<tr>
+    <td rowspan=”2”>ID</td>
+    <td>Name</td>
+    <td>Branch</td>
+</tr>
+</table>
+<br>
+<span style="background-color: aqua;">hello</span>
+
+
+
+
+<div>Hello guys</div>
+
+
+
+
+
+
+
+
+
+
+<video src="" controls autoplay muted loop></video>
+</body>
+
+</html>
